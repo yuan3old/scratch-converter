@@ -19,4 +19,5 @@ Vue       ( MIT LINENCE )
 Htmlifier ( MIT LINENCE )  
 Jszip     ( MIT LINENCE & GPL v3 )  
 Axios     ( MIT LINENCE ) 
+NW.JS     ( MIT LINENCE )
 ```
