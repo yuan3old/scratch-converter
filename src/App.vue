@@ -168,7 +168,7 @@ export default {
       }
       if (type == "exe") {
         axios
-          .get("./nwjs-v0.34.5-win-x64.zip", {
+          .get("./nwjs-v0.54.1-win-x64.zip", {
             onDownloadProgress: (progress) => {
               this.downloadProgress = Math.floor(
                 (progress.loaded / progress.total) * 100
@@ -182,9 +182,9 @@ export default {
             final_zip.loadAsync(response.data).then(function (zip) {
               // you now have every files contained in the loaded zip
               zip
-                .folder("nwjs-v0.34.5-win-x64")
+                .folder("nwjs-v0.54.1-win-x64")
                 .file("project.html", window.htmlBlob);
-              zip.folder("nwjs-v0.34.5-win-x64").file(
+              zip.folder("nwjs-v0.54.1-win-x64").file(
                 "package.json",
                 `{
                     "name": "Scratch Project",
